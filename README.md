@@ -1,3 +1,25 @@
+This is simplest version of given task (can't spend time for file/directory view, file uploads and so on, I spend about 4-5 hours for this task)
+
+How to deploy (to i2crm developers):
+1. docker is fully configured, localhost works, localhost:82 for phpmyadmin , composer install runs within
+docker-compose up -d
+2. php init
+        database connection:
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=mysql;dbname=i2crm',
+            'username' => 'user',
+            'password' => 'user123',
+            'charset' => 'utf8',
+        ],
+2. yii migrations fully functional, with fake users and fake repositories.
+3. go to localhost -> 
+    user: admin
+    password: admin123
+    
+Online testing:
+https://test.bahodir.ru/backend/web
+    
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
