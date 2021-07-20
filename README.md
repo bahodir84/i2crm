@@ -1,3 +1,4 @@
+<pre>
 This is simplest version of given task (can't spend time for file/directory view, file uploads and so on, I spend about 4-5 hours for this task)
 
 How to deploy (to i2crm developers):
@@ -19,7 +20,7 @@ docker-compose up -d
     
 Online testing:
 https://test.bahodir.ru/backend/web
-    
+</pre>    
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
